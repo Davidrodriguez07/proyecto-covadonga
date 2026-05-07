@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+header {
+    background-image: url('https://traildecuera.com/uploads/ttdpif8wsyb3ujzwjn5n.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    height: 300px; 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7); 
+}
+
+nav button {
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px auto 0 auto; 
+    background-color: #eee;
+    width: 150px;
+    border: 1px solid black;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.oculto {
+    display: none;
+}
+
+.galeria {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.galeria {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#imgGrande {
+    width: 700px;
+    height: 450px; 
+    border: 2px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.miniaturas {
+    text-align: center;
+}
+
+.miniaturas img {
+    display: inline-block; 
+    width: 200px;
+    height: 130px;
+    border: 1px solid black;
+    margin-left: 15px; 
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+form {
+    margin: 20px auto;
+    width: 300px; 
+    padding: 20px;
+    border: 1px solid black;
+    background-color: #f2f2f2;
+    text-align: center; 
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select {
+    margin-top: 5px;
+    padding: 5px;
+    width: 90%;
+}
+
+button {
+    margin-top: 15px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-top: 40px;
+}   
